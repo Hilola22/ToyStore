@@ -1,6 +1,6 @@
-import React from 'react'
-import bear from "../../assets/bear.png"
-import toy from "../../assets/woodtoy.png"
+import React from "react";
+import bear from "../../assets/bear.png";
+import toy from "../../assets/woodtoy.png";
 
 const Recommend = () => {
   return (
@@ -41,6 +41,6 @@ const Recommend = () => {
       </section>
     </>
   );
-}
+};
 
-export default React.memo(Recommend)
+export default React.memo(Recommend);

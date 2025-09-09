@@ -1,20 +1,22 @@
 import React, { memo } from "react";
 import Hero from "../../components/hero/Hero";
-import Recommend from "../../components/recommend/Recommend";
 import StuffedAnimals from "../../components/products/Products";
 import Story from "../../components/story/Story";
 import Webflow from "../../components/webflow/Webflow";
 import NewsLetter from "../../components/newsletter/NewsLetter";
+import OnInstagram from "../../components/onInstagram/OnInstagram";
+import Rec from "../../components/recommend/Recommend";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Recommend />
+      <Rec />
       <StuffedAnimals />
       <Story />
       <Webflow />
-      <NewsLetter/>
+      <NewsLetter />
+      <OnInstagram />
     </>
   );
 };
