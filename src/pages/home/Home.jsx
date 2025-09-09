@@ -5,7 +5,7 @@ import Story from "../../components/story/Story";
 import Webflow from "../../components/webflow/Webflow";
 import NewsLetter from "../../components/newsletter/NewsLetter";
 import OnInstagram from "../../components/onInstagram/OnInstagram";
-import Rec from "../../components/recommend/Recommend";
+import Rec from "../../components/recommend/Recommend.js";
 
 const Home = () => {
   return (
