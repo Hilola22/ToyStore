@@ -10,8 +10,14 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/posts/:id" element={<PostsDetail />} /> */}
-          <Route path="*" element={<div>404</div>} />
+          <Route
+            path="*"
+            element={
+              <div className="text-center text-[48px] pt-50 font-bold">
+                404 <p className="text-[24px] font-semibold ">Page NotFound</p>
+              </div>
+            }
+          />
         </Route>
       </Routes>
     </React.Fragment>

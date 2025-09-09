@@ -13,30 +13,42 @@ const Header = () => {
             </Link>
             <ul className="flex">
               <li>
-                <NavLink className="py-[12px] px-[18px]" to={"/#"}>
+                <NavLink
+                  className="py-[12px] px-[18px] hover:text-[#a5c926]"
+                  to={"/#"}
+                >
                   Catalog
                 </NavLink>
               </li>
               <li>
-                <NavLink className="py-[12px] px-[18px]" to={"/#"}>
+                <NavLink
+                  className="py-[12px] px-[18px] hover:text-[#a5c926]"
+                  to={"/#"}
+                >
                   Delivery
                 </NavLink>
               </li>
               <li>
-                <NavLink className="py-[12px] px-[18px]" to={"/#"}>
+                <NavLink
+                  className="py-[12px] px-[18px] hover:text-[#a5c926]"
+                  to={"/#"}
+                >
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink className="py-[12px] px-[18px]" to={"/#"}>
+                <NavLink
+                  className="py-[12px] px-[18px] hover:text-[#a5c926]"
+                  to={"/#"}
+                >
                   Contacts
                 </NavLink>
               </li>
             </ul>
           </div>
           <div className="flex items-center justify-center gap-4">
-            <p className='font-[13px]'>Cart</p>
-            <ShoppingCart size={23} />
+            <p className="font-[13px] select-auto ">Cart</p>
+            <ShoppingCart size={23} className="hover:text-[#95b424]" />
             <span className="size-5 rounded-full bg-[#a5c926] mx-auto text-center my-auto text-white">
               0
             </span>

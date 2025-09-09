@@ -4,6 +4,9 @@ import dog from "../../assets/dog.png";
 import plush from "../../assets/plush.png";
 import colorful from "../../assets/colorful.png";
 import toy from "../../assets/woodtoy.png";
+import product1 from "../../assets/product1.png";
+import product2 from "../../assets/product2.png";
+import product3 from "../../assets/product3.png";
 
 const sections = [
   {
@@ -18,10 +21,10 @@ const sections = [
   {
     title: "Wooden Toys",
     products: [
-      { name: "Wooden Toy 1", price: "$20.00 USD", img: toy },
-      { name: "Wooden Toy 2", price: "$25.00 USD", img: toy },
-      { name: "Wooden Toy 3", price: "$22.00 USD", img: toy },
-      { name: "Wooden Toy 4", price: "$28.00 USD", img: toy },
+      { name: "Happy Flower", price: "$38.00 USD", img: toy },
+      { name: "Lift Machine", price: "$24.00 USD", img: product1 },
+      { name: "Wooden Camera", price: "$32.00 USD", img: product2 },
+      { name: "Little Rabbit", price: "$16.00 USD", img: product3 },
     ],
   },
 ];

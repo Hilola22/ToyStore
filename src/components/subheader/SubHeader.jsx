@@ -11,10 +11,10 @@ const SubHeader = () => {
             <p>Email: toystore@template.com</p>
           </div>
           <div className="flex justify-around items-center gap-1.5">
-            <Twitter size={18}/>
-            <Facebook size={18}/>
-            <Instagram size={18}/>
-            <Youtube size={18}/>
+            <Twitter size={18} className="hover:text-yellow-200" />
+            <Facebook size={18} className="hover:text-yellow-200" />
+            <Instagram size={18} className="hover:text-yellow-200" />
+            <Youtube size={18} className="hover:text-yellow-200" />
           </div>
         </div>
       </section>

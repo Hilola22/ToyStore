@@ -23,7 +23,9 @@ const Webflow = () => {
               it must appeal to, entice, and convince consumers to take action.
               There is no magic formula to write perfect ad copy
             </p>
-            <button className="py-3 px-7 bg-[#a5c926] rounded-3xl text-white">GET IT NOW!</button>
+            <button className="py-3 px-7 bg-[#a5c926] rounded-3xl text-white border border-[#A5C926] hover:border-[#A5C926] hover:text-[#A5C926] hover:bg-white active:bg-[#9abe16] active:text-white">
+              GET IT NOW!
+            </button>
           </div>
           <img
             className="w-[567px] h-[422px] rounded-2xl select-none"

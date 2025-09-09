@@ -5,7 +5,7 @@ import { Play } from "lucide-react";
 const Story = () => {
   return (
     <section className="relative">
-      <img className="h-[464px] w-full object-cover" src={deer} alt="" />
+      <img className="h-[490px] w-full object-cover" src={deer} alt="" />
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
