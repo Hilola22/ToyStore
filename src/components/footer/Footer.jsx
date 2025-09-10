@@ -18,9 +18,7 @@ const Footer = () => {
                 <Link
                   className="py-[12px] px-[18px] text-white hover:text-yellow-200"
                   to={"/#"}
-                >
-                  Catalog
-                </Link>
+                >Catalog</Link>
               </li>
               <li>
                 <Link
