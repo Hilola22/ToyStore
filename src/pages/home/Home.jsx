@@ -5,13 +5,13 @@ import Story from "../../components/story/Story";
 import Webflow from "../../components/webflow/Webflow";
 import NewsLetter from "../../components/newsletter/NewsLetter";
 import OnInstagram from "../../components/onInstagram/OnInstagram";
-import Recommend from "../../components/Recommend/Recommend";
+import Suggests from "../../components/suggests/Suggests";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Recommend />
+      <Suggests />
       <StuffedAnimals />
       <Story />
       <Webflow />

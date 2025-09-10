@@ -2,7 +2,7 @@ import React from "react";
 import bear from "../../assets/bear.png";
 import toy from "../../assets/woodtoy.png";
 
-const Recommend = () => {
+const Suggests = () => {
   return (
     <>
       <section>
@@ -43,4 +43,4 @@ const Recommend = () => {
   );
 };
 
-export default React.memo(Recommend);
+export default React.memo(Suggests);
